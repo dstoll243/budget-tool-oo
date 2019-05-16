@@ -1,5 +1,7 @@
 # TRANSACTION TRACKER OO
 
+Run `ruby tools/console.rb` in your terminal to start this program
+
 For this exercise, you will be creating a program to track transactions between users and store locations. For our purposes, a `Customer` has many `Transaction`s, a `Location` has many `Transaction`s, and `Transaction`s belong to both `Customer` and `Location`.
 
 ## Deliverables
