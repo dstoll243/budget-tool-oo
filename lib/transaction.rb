@@ -1,15 +1,17 @@
+ # TRANSACTION TRACKER OO
+
 # Write out your transaction class and methods
 
 class Transaction
-  attr_accessor :user, :account, :location, :amount, :category, :confirmed
+  attr_reader :user, :location
+  attr_accessor :amount
 
   @@all = []
 
-  def initialize(user, account, amount, location=nil)
+  def initialize(user, location, amount)
     @user = user
-    @account = account
-    @amount = amount
     @location = location
+    @amount = amount
 
     @@all << self
   end
@@ -17,5 +19,4 @@ class Transaction
   def self.all
     @@all
   end
-
 end
