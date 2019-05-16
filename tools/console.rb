@@ -1,3 +1,5 @@
+ # TRANSACTION TRACKER OO
+
 require_relative '../config/environment.rb'
 
 def reload
