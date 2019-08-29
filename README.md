@@ -63,6 +63,6 @@ A location is initialized with a name as a string. The name of the location **ca
 + `Location#transactions`
   + Returns an array of the transactions associated with that location
 + `Location#customers`
-  + Returns an array of customer instances who have purchased from this location
+  + Returns an array of unique customer instances who have purchased from this location
 + `Location#unique_customers`
   + Returns an array of all unique customers (ex: if someone has purchased from here more than once, they would still only show once in this array. There is Ruby method that does this for you that you can google for)
