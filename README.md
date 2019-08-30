@@ -56,7 +56,9 @@ A location is initialized with a name as a string. The name of the location **ca
 + `Customer#locations`
   + Returns an array of location instances that a customer has shopped at
 + `Customers#total_spent`
-  + totals and returns the total amount that a user has spent at various locations 
+  + totals and returns the total amount that a user has spent at all locations 
++ `Customers#average_spent`
+  + returns the average of all transactions that a customer has
 
 #### `Location`
 
